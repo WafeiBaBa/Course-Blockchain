@@ -118,7 +118,7 @@ class Detail extends React.Component{
             <FormItem {...formItemLayout} label="Video Status">
               {
                 this.state.video
-                ? (this.state.role === '2' ? "Already Uploaded" : <video controls width="300px" src={`${ipfsPrefix}${this.state.video}`}></video>)
+                ? (this.state.role === '2' ? "Already Uploaded" : <video controls width="640px" src={`${ipfsPrefix}${this.state.video}`}></video>)
                 : "Wait for uploading..."
               }
             </FormItem>
